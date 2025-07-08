@@ -1,0 +1,8 @@
+cradle:
+  cabal:
+    cabalProject: "./haskell-modules.cabal"
+    components:
+      - path: "./app"
+        component: "haskell-modules:exe:haskell-modules"
+      - path: "./src/"
+        component: "haskell-modules:lib:haskell-modules"
